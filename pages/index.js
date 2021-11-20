@@ -13,8 +13,8 @@ export default function Home() {
 
         {/* 3 layout grid */}
         <main
-          className="max-w-7xl mx-auto mt-16 grid grid-flow-col 
-          grid-cols-[240px,2fr,1fr] gap-4 shadow-md "
+          className="max-w-7xl mx-auto grid grid-flow-col 
+           grid-cols-[240, 1fr] lg:grid-cols-[240px,2fr,1fr]  gap-4 p-4 mt-14"
         >
           {/* left sidebar */}
           <LeftSidebar />
