@@ -9,8 +9,11 @@ export default function ArticleCard({ article }) {
       </h1>
 
       <div className="py-4">
-        {article.tags.map((tag) => (
-          <span className=" font-normal pr-4 text-gray-800"> {`#${tag}`} </span>
+        {article.tags.map((tag, index) => (
+          <span className=" font-normal pr-4 text-gray-800" key={index}>
+            {" "}
+            {`#${tag}`}{" "}
+          </span>
         ))}
       </div>
     </section>
