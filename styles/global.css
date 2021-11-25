@@ -29,3 +29,24 @@ body {
 .content-options {
   font-family: "Raleway", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3c9;
+
+  height: 5px;
+  /* border: 2px solid #edf2f7; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #adadad;
+}
